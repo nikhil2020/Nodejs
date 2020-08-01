@@ -1,0 +1,19 @@
+<h2>User Login </h2> 
+<form method="post" action="/login"> 
+<table border="1"> 
+    <tr> 
+        <td>User Name</td> 
+        <td> <input type="text" name="user.uname" value= "<%= user.uname %>" /></td> 
+        
+    <tr> 
+        <td>Password</td> 
+        <td><input type="password" name="user.pwd" value="<%= user.pwd %>" /></td> 
+    </tr> 
+    <tr> 
+        <td><input type="submit"></td> 
+        <td> <%= user.msg %>
+        </td> 
+    </tr> 
+</table> 
+</form> 
+<a href="/">Home</a>
